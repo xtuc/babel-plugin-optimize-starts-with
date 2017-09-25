@@ -1,0 +1,34 @@
+{
+  "name": "babel-plugin-optimize-starts-with",
+  "version": "1.0.0",
+  "description": "Transform startsWith into raw char code tests",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "build": "babel src --out-dir lib",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xtuc/babel-plugin-optimize-starts-with.git"
+  },
+  "keywords": [
+    "optimize",
+    "startsWith",
+    "babelchar",
+    "code",
+    "test"
+  ],
+  "author": "Sven SAULEAU",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xtuc/babel-plugin-optimize-starts-with/issues"
+  },
+  "homepage": "https://github.com/xtuc/babel-plugin-optimize-starts-with#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
