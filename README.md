@@ -23,7 +23,7 @@ if ('test'.charCodeAt(0) === 116&& 'test'.charCodeAt(1) === 101) {
 ## Installation
 
 ```sh
-npm install --save-dev babel-plugin-babel-plugin-optimize-starts-with
+npm install --save-dev babel-plugin-optimize-starts-with
 ```
 
 ## Usage
@@ -34,20 +34,20 @@ npm install --save-dev babel-plugin-babel-plugin-optimize-starts-with
 
 ```json
 {
-      "plugins": ["babel-plugin-optimize-starts-with"]
+      "plugins": ["optimize-starts-with"]
 }
 ```
 
 ### Via CLI
 
 ```sh
-babel --plugins babel-plugin-optimize-starts-with script.js
+babel --plugins optimize-starts-with script.js
 ```
 
 ### Via Node API
 
 ```javascript
 require("babel-core").transform("code", {
-      plugins: ["babel-plugin-optimize-starts-with"]
+      plugins: ["optimize-starts-with"]
 });
 ```
